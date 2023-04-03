@@ -18,6 +18,7 @@ public class App {
         // ExtratorDeConteudo extrator = api.getExtrator();
 
         String url = "http://localhost:8080/linguagens";
+        // String url = "https://alura-linguagens-alfredo.fly.dev/linguagens"; // Configurar fly.io
         ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
 
         var http = new ClienteHttp();
